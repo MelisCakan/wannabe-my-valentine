@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Mate+SC&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.big {
+    padding: 200px;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 20px solid transparent;
+    border-image: url(./photos/pink-lace-border-removebg-preview.png) 50 round;
+    background-color: rgb(255, 237, 240);
+    padding-bottom: 30px;
+    
+}
+
+.question {
+    font-family: "Dancing Script";
+}
+
+
+.cat-gif {
+    width: 25%;
+    margin-bottom: -30px;
+}
+
+
+.wannabe {
+    margin-top: 0;
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+}
+
+.buttons {
+    width: 200px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn {
+    width: 75px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgb(250, 177, 190);
+    color: white;
+    border: 5px solid transparent;
+    outline: 4px solid pink;
+    cursor: pointer;
+    font-family: "Mate SC";
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.6);
+    transition-duration: 0.4s;
+
+}
+
+.no-btn {
+    position: absolute;
+    transition-duration: 0s;
+    margin-right: -100px;
+}
+
+.yes-btn {
+    position: absolute;
+    margin-left: -100px;
+}
+
+
+.btn:hover {
+    color: rgb(250, 177, 190);
+    background-color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+
