@@ -16,6 +16,7 @@ But beware — clicking "No" isn’t as easy as it sounds… because the button 
 ## Preview
 
 ![image](https://github.com/user-attachments/assets/e20cf053-496b-443f-bef6-062a1c11a236)
+
 When clicked yes:
 ![image](https://github.com/user-attachments/assets/30b1365c-ef7c-4b6d-9dac-925860aa8664)
 
